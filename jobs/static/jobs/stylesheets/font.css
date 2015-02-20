@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/NotoSans-Bold.ttf')  format('truetype') /* Safari, Android, iOS */
+}

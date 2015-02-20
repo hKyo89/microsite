@@ -1,0 +1,280 @@
+{
+    "sections": {
+        "hero": {
+            "title": "Working at Tokopedia.",
+            "subtitles": [
+                "We're building useful products for lots of people.",
+                "Want to join us?"
+            ],
+            "buttons": {
+                "jobs": {
+                    "url": "#job",
+                    "text": "Available jobs"
+                },
+                "vision": {
+                    "url": "#vision",
+                    "text": "Explore more"
+                }
+            }
+        },
+        "vision": {
+            "title": "VISION",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id, cum sit animi similique nemo perferendis aut!"
+        },
+        "dna": {
+            "title": "5 DNA",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id, cum sit animi similique nemo perferendis aut!",
+            "items": [
+                {
+                    "img": "/images/dna-1.png",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis repudiandae voluptatibus similique sit id iste ipsa porro corporis excepturi."
+                },
+                {
+                    "img": "/images/dna-2.png",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis repudiandae voluptatibus similique sit id iste ipsa porro corporis excepturi."
+                },
+                {
+                    "img": "/images/dna-3.png",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis repudiandae voluptatibus similique sit id iste ipsa porro corporis excepturi."
+                },
+                {
+                    "img": "/images/dna-4.png",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis repudiandae voluptatibus similique sit id iste ipsa porro corporis excepturi."
+                },
+                {
+                    "img": "/images/dna-5.png",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis repudiandae voluptatibus similique sit id iste ipsa porro corporis excepturi."
+                }
+            ]
+        },
+        "playground": {
+            "title": "OUR PLAYGROUND",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id, cum sit animi similique nemo perferendis aut!",
+            "items": [
+                {
+                    "img": "/images/workspace-6.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-5.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-1.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-2.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-3.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-6.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-6.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-5.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-1.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-2.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-3.jpg",
+                    "title": "Tri Nugraha"
+                },
+                {
+                    "img": "/images/workspace-6.jpg",
+                    "title": "Tri Nugraha"
+                }
+            ]
+        },
+        "cool": {
+            "title": "COOL THINGS ABOUT US",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id, cum sit animi similique nemo perferendis aut!",
+            "items": [
+                {
+                    "img": "/images/cool-15.jpg",
+                    "title": "Scrum",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "/images/cool-6.jpg",
+                    "title": "Intrapreneurship",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "",
+                    "title": "",
+                    "subtitle": ""  
+                },
+                {
+                    "img": "/images/cool-19.jpg",
+                    "title": "Nakama Awards",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "/images/cool-7.jpg",
+                    "title": "Thursday English",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "",
+                    "title": "",
+                    "subtitle": ""  
+                },
+                {
+                    "img": "/images/cool-13.jpg",
+                    "title": "Game Kit",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "/images/cool-21.jpg",
+                    "title": "Cool Books",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "",
+                    "title": "",
+                    "subtitle": ""  
+                },
+                {
+                    "img": "/images/cool-14.jpg",
+                    "title": "Sweet Escape",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima officiis molestias magnam placeat rerum ipsum ullam repellendus delectus esse. Saepe quae accusantium nam blanditiis consectetur odio, voluptatum maxime cumque."  
+                },
+                {
+                    "img": "/images/cool-16.jpg",
+                    "title": "Us!",
+                    "subtitle": "Seriously, we're a bunch of cool folks."  
+                },
+                {
+                    "img": "",
+                    "title": "",
+                    "subtitle": ""  
+                }
+            ]
+        },
+        "testimonial": {
+            "title": "TESTIMONIALS",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id, cum sit animi similique nemo perferendis aut!",
+            "items": [
+                {
+                    "img": "/images/workspace-1.jpg",
+                    "video": "https://www.youtube.com/watch?v=6edhFL2B1z8",
+                    "name": "Tri Nugraha",
+                    "position": "Product & Design Team",
+                    "color": "green"
+                },
+                {
+                    "img": "/images/workspace-2.jpg",
+                    "video": "https://www.youtube.com/watch?v=6edhFL2B1z8",
+                    "name": "Tri Nugraha",
+                    "position": "Product & Design Team",
+                    "color": "blue"
+                },
+                {
+                    "img": "/images/workspace-3.jpg",
+                    "video": "https://www.youtube.com/watch?v=6edhFL2B1z8",
+                    "name": "Tri Nugraha",
+                    "position": "Product & Design Team",
+                    "color": "deeporange"
+                },
+                {
+                    "img": "/images/workspace-4.jpg",
+                    "video": "https://www.youtube.com/watch?v=6edhFL2B1z8",
+                    "name": "Tri Nugraha",
+                    "position": "Product & Design Team",
+                    "color": "pink"
+                },
+                {
+                    "img": "/images/workspace-5.jpg",
+                    "video": "https://www.youtube.com/watch?v=6edhFL2B1z8",
+                    "name": "Tri Nugraha",
+                    "position": "Product & Design Team",
+                    "color": "brown"
+                },
+                {
+                    "img": "/images/workspace-6.jpg",
+                    "video": "https://www.youtube.com/watch?v=6edhFL2B1z8",
+                    "name": "Tri Nugraha",
+                    "position": "Product & Design Team",
+                    "color": "purple"
+                }
+            ]
+        },
+        "jobs": {
+            "title": "JOB OPENINGS",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis consequuntur consectetur culpa id, cum sit animi similique nemo perferendis aut!",
+            "items": [
+                {
+                    "title": "Software Engineer",
+                    "img": "/images/job-se.png",
+                    "url": "software-engineer"
+                },
+                {
+                    "title": "Technical Engineer",
+                    "img": "/images/job-infra.png",
+                    "url": "technical-engineer"
+                },
+                {
+                    "title": "UI/UX Engineer",
+                    "img": "/images/job-uiux.png",
+                    "url": "ui-ux-engineer"
+                },
+                {
+                    "title": "Quality Control",
+                    "img": "/images/job-qc.png",
+                    "url": "quality-control"
+                },
+                {
+                    "title": "Designer",
+                    "img": "/images/job-design.png",
+                    "url": "designer"
+                },
+                {
+                    "title": "Content",
+                    "img": "/images/job-content.png",
+                    "url": "content"
+                },
+                {
+                    "title": "Customer Relation",
+                    "img": "/images/job-content.png",
+                    "url": "customer-relation"
+                },
+                {
+                    "title": "Mobile App Engineer",
+                    "img": "/images/job-mobile.png",
+                    "url": "mobile-app-engineer"
+                },
+                {
+                    "title": "Human Resources",
+                    "img": "/images/job-hr.png",
+                    "url": "human-resources"
+                },
+                {
+                    "title": "Marketing & Sales",
+                    "img": "/images/job-sm.png",
+                    "url": "marketing-sales"
+                },
+                {
+                    "title": "Internship",
+                    "img": "/images/job-intern.png",
+                    "url": "internship"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,510 @@
+{
+    "jobs": [
+        {
+            "url": "software-engineer",
+            "title": "Software Engineer",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "technical-engineer",
+            "title": "Technical Engineer",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "ui-ux-engineer",
+            "title": "UI/UX Engineer",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "quality-control",
+            "title": "Quality Control",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "designer",
+            "title": "Designer",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "content",
+            "title": "Content",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "customer-relation",
+            "title": "Customer Relation",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "mobile-app-engineer",
+            "title": "Mobile App Engineer",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "human-resources",
+            "title": "Human Resources",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "marketing-sales",
+            "title": "Marketing & Sales",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "internship",
+            "title": "Internship",
+            "subtitle": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+            "items": [
+                {
+                    "title": "UI Designer",
+                    "url": "ui-designer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "UX Researcher",
+                    "url": "ux-researcher",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                },
+                {
+                    "title": "Frontend Engineer",
+                    "url": "frontend-engineer",
+                    "description": "As a UI/UX Engineer at Tokopedia, you will be building responsive and elegant web UIs. You will work closely with product, design, technology and business team. You will be involved in doing user research, sketching wireframes, having fun with mockups and building interface using JavaScript, HTML and CSS.",
+                    "requirements": [
+                        "Bachelor's degree. Maximum 28 years of age.",
+                        "Creative and detail-oriented.",
+                        "Have passion to build product with effective and fancy user interface.",
+                        "Proficient in XHTML, CSS, Javascript, AJAX, and Photoshop.",
+                        "Communicative and able to work in team.",
+                        "Have good sense of art and passionate in creating great design concept."
+                    ]
+                }
+            ]
+        }
+    ]
+}

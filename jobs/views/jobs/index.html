@@ -1,0 +1,293 @@
+{% extends "layout.html" %}
+
+{% block title %}{% parent %} - Home{% endblock title %}
+
+{% block css %}
+    {% parent %}
+    <link href="{{ staticHost }}/stylesheets/magnific-popup.css" rel="stylesheet">
+{% endblock css %}
+
+{% block content %}
+
+
+<!-- <div id="fullpage"> -->
+
+{# HERO #}
+<section class="section hero--main" id="hero">
+    <div class="container hero--main__wrapper">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1 class="hero--main__h1"><span>{{ jsondata.sections.hero.title }}</span></h1>
+                <p class="hero--main__subtitle">
+
+                    {% for item in jsondata.sections.hero.subtitles %}
+                        <span>{{ item }}</span>
+                        {% if !loop.last %}<br>{% endif %}
+                    {% endfor %}
+
+                </p>
+
+                <p><a href="{{ jsondata.sections.hero.buttons.jobs.url }}" class="btn btn-success btn-lg">{{ jsondata.sections.hero.buttons.jobs.text }}</a></p>
+
+                <p><a href="{{ jsondata.sections.hero.buttons.vision.url }}">{{ jsondata.sections.hero.buttons.vision.text }}</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+{# END OF HERO #}
+
+{# VISION #}
+<section class="section" id="vision">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">    
+                <h2 class="section__h2 section__h2--vision">{{ jsondata.sections.vision.title }}</h2>
+                <p class="section__subtitle">{{ jsondata.sections.vision.subtitle }}</p>
+            </div>
+        </div>
+                
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><img class="img--preload img-responsive center-block" src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}/images/visi.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+</section>
+{# END OF VISION #}
+
+{# DNA #}
+<section class="section section--color" id="dna">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section__h2 section__h2--dna">{{ jsondata.sections.dna.title }}</h2>
+                <p class="section__subtitle">{{ jsondata.sections.dna.subtitle }}</p>
+            </div>
+        </div>
+
+        {% for item in jsondata.sections.dna.items %}
+            {% if loop.first || loop.index % 3 == 1  %}<div class="row">{% endif %}
+                <div class="col-sm-4 {% if loop.index == 4 %}col-sm-offset-2{% endif %}">
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3">
+                            <p><img class="img--preload img-responsive center-block" src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}{{ item.img }}" alt=""></p>
+                        </div>
+                    </div>
+
+                    <p class="copywriting text-center">{{ item.subtitle }}</p>
+                </div>
+            {% if loop.last || loop.index % 3 == 0 %}</div>{% endif %}
+        {% endfor %}
+
+    </div>
+</section>
+{# END OF DNA #}
+
+
+{# PLAYGROUND #}
+<section class="section" id="playground">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <h2 class="section__h2 section__h2--playground">{{ jsondata.sections.playground.title }}</h2>
+                <p class="section__subtitle">{{ jsondata.sections.playground.subtitle }}</p>
+            </div>
+
+            <div class="col-md-6 col-lg-6 popup-youtube">
+                <div class="card card--video">
+                    <a class="popup-video__img" href="https://www.youtube.com/watch?v=6edhFL2B1z8">
+                        <div class="popup-video__mask">
+                            <span class="zoom-link zoom-link--video">View</span>
+                        </div>
+                        <img class="img--preload img-responsive" src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}/images/workspace.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-30">
+        </div>
+
+        <div class="row popup-gallery mb-30">
+            {% for item in jsondata.sections.playground.items %}
+                {% if loop.first || loop.index % 3 == 1 %}<div class="col-xs-6 col-sm-3 col-lg-3 col--nopadding">{% endif %}
+                    <div class="popup-gallery__wrapper">
+                        <a class="popup-gallery__img" href="{{ staticHost }}{{ item.img }}" title="{{ item.title }}">
+                            <div class="popup-gallery__mask">
+                                <span class="zoom-link zoom-link--photo">View</span>
+                            </div>
+                            <img class="img--preload img-responsive" src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}{{ item.img }}" alt="" />
+                        </a>
+                    </div>
+                {% if loop.last || loop.index % 3 == 0 %}</div>{% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{# END OF PLAYGROUND #}
+
+
+{# COOL THING ABOUT US #}
+<section class="section section--color section--nopb" id="cool">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section__h2 section__h2--cool">
+                    {{ jsondata.sections.cool.title }}
+                </h2>
+                <p class="section__subtitle">{{ jsondata.sections.cool.subtitle }}</p>
+            </div>
+        </div>
+    </div>
+
+    {# COOL:GALERY #}
+    <div class="container-fluid">
+        <div class="row">
+
+            {% for item in jsondata.sections.cool.items %}
+                {% if item.img != "" %}
+                    <div class="col-sm-6 col-lg-3 col--nopadding"> 
+                        <div class="card--cool">
+                            <div class="card--cool__maintitle">{{ item.title }}</div>
+                            <div class="card--cool__img"><img src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}{{ item.img }}" class="img--preload img-responsive"></div>
+
+                            <div class="card--cool__body center-vertically">
+                                <div class="card--cool__heading">
+                                    {% if item.title == "Us!" %}
+                                        <p class="card--cool__subtitle card--cool__subtitle--us">{{ item.subtitle }}</p>
+                                    {% else %}
+                                        <h3 class="card--cool__title">{{ item.title }}</h3>
+                                        <p class="card--cool__subtitle">{{ item.subtitle }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="col-sm-6 hidden-xs hidden-sm hidden-md col-lg-3 col--nopadding"></div>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+    {# END OF COOL:GALERY #}
+
+</section>
+{# END OF COOL THING ABOUT US #}
+
+
+{# TESTIMONIAL #}
+<section class="section" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section__h2 section__h2--testimonial">{{ jsondata.sections.testimonial.title }}</h2>
+                <p class="section__subtitle">{{ jsondata.sections.testimonial.subtitle }}</p>
+            </div>
+        </div>
+
+        {# TESTIMONIAL:VIDEO #}
+        <div class="row">
+
+            {% for item in jsondata.sections.testimonial.items %}
+            <div class="col-sm-6 col-lg-4 popup-youtube">
+                <div class="card card--testimonial card--{{ item.color }}">
+                    <div class="popup-video__wrapper">
+                        <a class="popup-video__img" href="{{ item.video }}">
+                            <div class="popup-video__mask">
+                                <span class="zoom-link zoom-link--video">View</span>
+                            </div>
+                            <img class="img--preload img-responsive img-full" src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}{{ item.img }}" alt="" />
+                        </a>
+                    </div>                    
+                    <div class="card--testimonial__content">
+                        <div class="card--testimonial__name">{{ item.name }}</div>
+                        <div class="card--testimonial__position">{{ item.position }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+        {# END OF TESTIMONIAL:VIDEO #}
+
+    </div>
+</section>
+{# END OF TESTIMONIAL #}
+
+{# JOBS #}
+<section class="section section--color" id="job">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section__h2 section__h2--job">{{ jsondata.sections.jobs.title }}</h2>
+                <p class="section__subtitle">{{ jsondata.sections.jobs.subtitle }}</p>
+            </div>
+        </div>
+
+        {# JOBS:LIST #}
+        <div class="row">
+            
+            {% for item in jsondata.sections.jobs.items %}
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <a href="{{ baseUrl }}/{{ item.url }}" class="card--jobs">
+                    <img class="img--preload img-responsive" src="{{ staticHost }}/images/loading.gif" data-src="{{ staticHost }}{{ item.img }}" alt="" />
+                
+                    <div class="card--jobs__role">{{ item.title }}</div>
+                </a>
+            </div>
+            {% endfor %}
+
+        </div>
+        {# END OF JOBS:LIST#}
+
+    </div>
+</section>
+{# END OF JOBS #}
+{% endblock content %}
+
+{% block closingBodyScript %}
+    {% parent %}
+    <!-- Trigger -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // $('.navbar-fixed-top').xxx();
+
+            $(".img--preload").unveil(500, function() {
+                $(this).load(function() {
+                    this.style.opacity = 1;
+                });
+            });
+
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function(item) {
+                        return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+                    }
+                }
+            });
+
+            $('.popup-youtube').magnificPopup({
+                // disableOn: 700,
+                delegate: 'a',
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
+    </script>
+{% endblock closingBodyScript %}

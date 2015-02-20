@@ -1,0 +1,5 @@
+==========EXCLUDE==========
+
+- glyphicons
+- panel
+- carousel

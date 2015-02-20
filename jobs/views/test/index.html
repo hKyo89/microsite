@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block css %}
+{% parent %}
+<link href="#?asda" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block header %}
+{% parent %}
+{{ name }}
+
+<br>a
+{% for pet in pets %}
+{{ pet }}a
+{% endfor %}
+{% endblock %}

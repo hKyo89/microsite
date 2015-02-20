@@ -1,0 +1,238 @@
+{% extends "layout.html" %}
+
+{% block title %}{% parent %} - {{ groupTitle }} - {{ jsondata.title }}{% endblock title %}
+
+{% block css %}
+    {% parent %}
+
+{% endblock css %}
+
+{% block content %}
+<!-- === HERO === -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hero-jobs hero-jobs--uiux"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- === BREADCRUMBS === -->
+<section class="breadcrumb-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="breadcrumb">
+                    <li><a href="{{ baseUrl }}/jobs/{{ groupUrl }}">&larr; Back to {{ groupTitle }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- === TITLE, SUBTITLE, CONTENT === -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-lg-8 col-lg-offset-2">
+                <h1 class="h1--jobs">{{ jsondata.title }} </h1>
+
+                </p>{{ jsondata.description }}<p> 
+                
+                <h3 class="h3--jobs">
+                    Requirements
+                </h3>
+
+                <ul class="copywriting">
+                	{% for item in jsondata.requirements %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col-sm-4 col-lg-2">
+                <a href="#apply-form" class="btn btn-block btn-lg btn-success">Apply</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- === APPLY FORM === -->
+<section id="apply-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-lg-6 col-lg-offset-2">
+	            <div class="alert alert-success mt-30 hide" id="alert"></div>
+                <div id="form-holder">
+                    <h3 class="h3--jobs">
+                        Apply for this Position
+                    </h3>
+
+                    <form method="post" id="application-form" target="carpediem" action="{{ baseUrl }}/jobs/post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>Full Name &#42;</label>
+                            <!-- <span class="form-group__error">Enter your first name.</span> -->
+                            <input type="text" name="fullname" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>E-mail &#42;</label>
+                            <!-- <span class="form-group__error">Enter your last name.</span> -->
+                            <input type="text" name="email" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Phone Number &#42;</label>
+                            <!--<span class="form-group__error">Enter your phone number.</span>-->
+                            <input type="tel" name="phonenumber" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Resume &#42;</label>
+                            <!-- <span class="form-group__error">Attach or paste resume.</span> -->
+
+                            <div id="resume-form--paste">
+                                <p class="help-block--top small text-muted">
+                                    Attach resume (.pdf, .doc, .docx), Max. size 10 MB or <a class="resume-form--paste-action">paste resume</a>
+                                </p>
+                                <input type="file" name="cvfile">
+                            </div>
+
+                            <div id="resume-form--attach" class="hide">
+                                <p class="help-block--top small text-muted">
+                                    Paste your resume here or <a class="resume-form--attach-action">attach resume</a>
+                                </p>
+                                <textarea name="cvtext" class="form-control textarea-v" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Cover Letter &#42;</label>
+                            <!-- <span class="form-group__error">Write down your cover letter.</span> -->
+                            <textarea name="coverletter" class="form-control textarea-v" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>LinkedIn Profile URL</label>
+                            <input name="linkedin" type="url" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Twitter Username</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input name="twitter" type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Website, Blog or Portfolio</label>
+                            <input name="website" type="url" class="form-control">
+                        </div>
+                        <input type="hidden" name="position" value="{{ groupTitle }} - {{ jsondata.title }}">
+                        <button id="submit-btn" class="btn btn-default btn-on">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <iframe name="carpediem" class="hide-small"></iframe>
+    </div>
+</section>
+{% endblock content %}
+
+
+{% block closingBodyScript %}
+	{% parent %}
+<!-- Trigger -->
+<script type="text/javascript">
+	$(document).ready(function() {
+        $(".resume-form--paste-action").click(function(){
+            $("#resume-form--paste").addClass("hide");
+            $("#resume-form--attach").removeClass("hide");
+        });        
+
+        $(".resume-form--attach-action").click(function(){
+            $("#resume-form--attach").addClass("hide");
+            $("#resume-form--paste").removeClass("hide");
+        });        
+
+        $("img").unveil();
+    });
+
+    function buildSubmitBtn(status) {
+		var html = "";
+		if (status) {
+			html = "<button class='btn btn-default'>Submit</button>";
+		} else {
+			html = "<img class='img-responsive center-block' src='{{ staticHost }}/images/loading.gif' data-src='{{ staticHost }}/images/visi.png' alt=''>";
+		}
+
+		$("#submit-btn-holder").html(html);
+	}
+
+	//buildSubmitBtn(true);
+
+	var response = "";
+
+	function formListener(message) {
+		var alert = $("#alert");
+        var success = "success";
+        var error = "warning";
+		var removeClass = success;
+		var addClass = error;
+		
+		if (message.status == success) {
+			removeClass = error;
+			addClass = success;
+            $("#form-holder").fadeOut();
+		} else {
+            toggleSubmitBtn();
+        }
+        
+		alert.removeClass("alert-" + removeClass);
+		alert.removeClass("hide");
+		alert.addClass("alert-" + addClass);
+
+		alert.html("<div>" + message.messages + "</div>");
+		$('html, body').animate({
+	        scrollTop: $("#apply-form").offset().top
+	    }, 200);
+	    //buildSubmitBtn(true);
+	}
+
+    $("#submit-btn.btn-off").click(function () {
+        return false;
+    });
+
+    function toggleSubmitBtn() {
+        var btn = $("#submit-btn");
+        var btnOn = "btn-on";
+        var btnOff = "btn-off";
+
+        if (btn.hasClass(btnOn)) {
+            btn.removeClass(btnOn);
+            btn.addClass(btnOff);
+            btn.css("cursor", "default");
+            btn.html("Submitting...");
+        } else {
+            btn.removeClass(btnOff);
+            btn.addClass(btnOn);
+            btn.css("cursor", "pointer");
+            btn.html("Submit");
+        }
+    }
+
+	$("#submit-btn.btn-on").click(function () {
+        toggleSubmitBtn();
+        //return false;
+		//buildSubmitBtn(false);
+		$("#application-form").submit();
+		return false;
+	});
+</script>
+{% endblock closingBodyScript %}
